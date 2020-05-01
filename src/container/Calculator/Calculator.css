@@ -1,0 +1,9 @@
+.Calculator{
+    width: 300px;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    box-sizing: border-box;
+    background-color: rgb(247, 247, 247);
+    /* margin-top: 60px; */
+}

@@ -1,9 +1,10 @@
 import React from 'react';
+import classes from './Button.css';
 
 
-const button = (props)=>(
-    <div>
-        <h3>{props.number}</h3>
+const button = ({number,add})=>(
+    <div className={classes.Button} onClick={add}>
+        <h3>{number}</h3>
     </div>
 );
 
